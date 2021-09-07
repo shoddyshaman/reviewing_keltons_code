@@ -6,8 +6,8 @@
 
 
 
-const port = process.env.PORT||5500
+// const port = process.env.PORT||5500
 
-app.listen(port, () => {
-    console.log(`Server is up and running`)
-  })
+// app.listen(port, () => {
+//     console.log(`Server is up and running`)
+//   })
