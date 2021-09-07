@@ -1,6 +1,13 @@
-document.getElementById("myBtn").addEventListener("click", compliment);
+const express = require('express')
+const app = express()
+app.use(express.json()) 
 
-function  compliment() {
-   console.log("working")
-    alert("Hello");
-}
+
+
+
+
+const port = process.env.PORT||5500
+
+app.listen(port, () => {
+    console.log(`Server is up and running`)
+  })
