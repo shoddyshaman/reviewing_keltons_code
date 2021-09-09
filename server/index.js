@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 app.use(express.json()); 
 
-app.get('/', express.static(path.join(__dirname, './styles.css'))) 
+app.get('/styles', express.static(path.join(__dirname, './styles.css'))) 
 
 
 
