@@ -6,7 +6,7 @@ app.use(express.json());
 // app.use('/styles', express.static(path.join(__dirname, './styles.css')))
 
 app.get('/',(req,res) => {
-  res.sendFile(path.join(__dirname, './styles.css'))
+  res.sendFile(path.join(__dirname, '../styles.css'))
 } ) 
 
 
